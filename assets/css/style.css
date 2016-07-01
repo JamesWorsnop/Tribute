@@ -1,0 +1,48 @@
+#bio-image{
+width: 100%;
+height: auto;
+}
+
+.biotitle{
+  font-family: 'Krona One', sans-serif;
+  color: black;
+}
+
+h2{
+  font-family: 'Merienda One', cursive;
+}
+
+p{
+  font-family: 'Assistant', sans-serif;
+  padding: 25px;
+  font-size: 1em;
+  color: black;
+  font-weight: bold;
+}
+
+.game-image{
+  height: 216px;
+  width: 154px;
+  margin: 30px;
+}
+
+.game-info{
+  "visibility: hidden
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
