@@ -1,3 +1,8 @@
+.container-fluid{
+  background: url("http://wallpaper.zone/img/3272404.png");
+  background-size: cover;
+}
+
 #bio-image{
 width: 100%;
 height: auto;
