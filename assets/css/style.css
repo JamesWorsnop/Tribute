@@ -28,11 +28,20 @@ p{
 .game-image{
   height: 216px;
   width: 154px;
-  margin: 30px;
 }
 
 .game-info{
   "visibility: hidden
+}
+
+.carousel-control.right, .carousel-control.left{
+  background-image: none;
+}
+
+#game-carousel{
+  overflow: hidden;
+  width: 496px;
+  height: auto;
 }
 
 .hvr-grow {

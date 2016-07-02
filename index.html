@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Merienda+One|Assistant|Krona+One" rel="stylesheet">
   <link rel="stylesheet" href="https://s.mlcdn.co/animate.css">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/js/gametext.js"></script>
   <script type="text/javascript" src="assets/js/script.js"></script>
   <title>Sonic the hedgehog - The Blue Streak</title>
@@ -24,11 +25,30 @@
           <h2 class="text-center text-primary biotitle">Sonic The Hedgehog</h2>
             <div class="row">
               <h2 class='text-center text-secondary'>Gameography</h2>
-              <div class="row text-center">
-                <a href="https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)"><img id="sonic1" class="game-image hvr-grow img-rounded" src="http://vignette2.wikia.nocookie.net/sonic/images/7/76/Sonic_the_Hedgehog_(1991)_cover_art.jpeg/revision/latest?cb=20131203232223"/></a>
-                <a href="https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2"><img id="sonic2" class="game-image hvr-grow img-rounded" src="https://www.mobygames.com/images/covers/l/13116-sonic-the-hedgehog-2-genesis-front-cover.jpg"/></a>
-                <a href="https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_3"><img id="sonic3" class="game-image hvr-grow img-rounded" src="http://vignette1.wikia.nocookie.net/sonic/images/7/71/Sonic3cover.png/revision/latest?cb=20110614224146"/></a>
-                <a href="https://en.wikipedia.org/wiki/Sonic_%26_Knuckles"><img id="s3andk" class="game-image hvr-grow img-rounded" src="http://img2.game-oldies.com/sites/default/files/packshots/sega-genesis/sonic-knuckles-world.png"/></a>
+              <div class="row">
+                <div id="game-carousel" class="carousel slide center-block" data-ride="carousel">
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active center-block img-responsive">
+                      <a href="https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)"><img id="sonic1" class="center-block game-image animated img-rounded" alt="sonic 1 game cover" src="http://vignette2.wikia.nocookie.net/sonic/images/7/76/Sonic_the_Hedgehog_(1991)_cover_art.jpeg/revision/latest?cb=20131203232223"/></a>
+                    </div>
+                    <div class="item center-block img-responsive">
+                      <a href="https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2"><img id="sonic2" class="center-block game-image img-rounded animated" alt="sonic 2 game cover" src="https://upload.wikimedia.org/wikipedia/en/9/9f/Sonic2_European_Box.jpg"/></a>
+                    </div>
+                    <div class="item center-block img-responsive">
+                      <a href="https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_3"><img id="sonic3" class="center-block game-image animated img-rounded" alt="sonic 3 game cover" src="http://vignette1.wikia.nocookie.net/sonic/images/7/71/Sonic3cover.png/revision/latest?cb=20110614224146"/></a>
+                    </div>
+                    <div class="item center-block img-responsive">
+                      <a href="https://en.wikipedia.org/wiki/Sonic_%26_Knuckles"><img id="s3andk" class="center-block game-image animated img-rounded" alt="sonic 3 and knuckles game cover" src="http://img2.game-oldies.com/sites/default/files/packshots/sega-genesis/sonic-knuckles-world.png"/></a>
+                    </div>
+                  </div>
+                  <a class="left carousel-control" href="#game-carousel" role="button" data-slide="prev">
+                    <span class="icon-prev" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#game-carousel" role="button" data-slide="next">
+                    <span class="icon-next" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
               </div>
             </div>
             <div id="game-info" class="row animated">
@@ -37,6 +57,7 @@
             </div>
           </div>
         </div>
+      </div>
     </div>
 </body>
 </html>
