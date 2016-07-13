@@ -1,14 +1,9 @@
 body, html{
   height: 100%;
-  background: url("http://sonic.sega.jp/SonicLostWorld/image/bg.jpg");
+  background: url("../images/bg.jpg");
   background-size: cover;
   overflow-x: hidden
 }
-
-/*#bio-image{
-width: 100%;
-height: auto;
-}*/
 
 .biotitle{
   font-family: 'Krona One', sans-serif;
@@ -17,12 +12,10 @@ height: auto;
 
 h2, h3{
   font-family: 'Merienda One', cursive;
-  color: black;
 }
 
 p{
   font-family: 'Assistant', sans-serif;
-  color: black;
   font-weight: bold;
   font-size: 1.2em;
 }

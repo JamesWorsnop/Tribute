@@ -35,7 +35,9 @@ function initCarousel(){
   });
 
   //Start the carousel.
-  $("#game-carousel").carousel();
+  $("#game-carousel").carousel({
+    interval: 5000
+  });
 };
 
 /**
